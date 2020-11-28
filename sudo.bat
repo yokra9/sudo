@@ -4,4 +4,4 @@ set arg=%*
 REM 「"」を「\"」にエスケープする
 set replacedArg=%arg:"=\"%
 REM .\sudo\main.ps1にエスケープ済みの引数を渡す。
-powershell -ExecutionPolicy Unrestricted -File "%~dp0sudo\main.ps1" "%replacedArg%"
+pwsh -ExecutionPolicy Unrestricted -File "%~dp0sudo\main.ps1" "%replacedArg%"

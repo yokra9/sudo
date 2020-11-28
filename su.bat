@@ -1,2 +1,2 @@
 @echo off
-powershell -Command "Start-Process powershell -Verb runas"
+powershell start-process wt -verb runas

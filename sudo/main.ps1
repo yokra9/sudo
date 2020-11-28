@@ -66,4 +66,4 @@ else {
 }
 
 # 管理者シェルを起動する
-Start-Process powershell -ArgumentList $argument_list -Verb runas -Wait
+Start-Process pwsh -ArgumentList $argument_list -Verb runas -Wait
